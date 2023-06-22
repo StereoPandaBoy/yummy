@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --bebas-neue:"Bebas Neue", verdana, sans-serif;
+    --montserrat: "montserrat", verdana, sans-serif; 
+    --primary: #D2483D;
+    --secondary: #000000;
+    --background: #F3F3F3;
+    --text: #000000;
+    --text-light: #FFFFFF;
+}
+
+nav {
+
+text-align: right;
+
+}
+
+.menus {
+
+visibility: hidden;
+
+}
+
+
+img[alt="logoXS"] {
+
+display: flex;
+text-align: left;
+
+}
+
+img[alt="hamburger"] {
+
+display: flex;
+text-align: right;
+
+}
+
+
+.enveloppe {
+
+max-width: 375px;
+margin: auto;
+
+}
+
+.titre p {
+
+font-size: 24px; 
+
+
+
+}
+
+body
+{
+
+margin: 0;
+text-align: center;
+background-color: var(--background);
+font-family: var(--montserrat);
+
+}
+
+
+header
+{
+
+font-family: var(--bebas-neue);
+
+}
+
+h1,h2 {
+
+font-family: var(--bebas-neue);
+
+}
+
+h2 {
+
+display: inline-block;
+border-bottom: 4px solid var(--primary);
+line-height: 1;
+
+}
+
+h3 {
+
+margin-bottom: 0;    
+
+}
+
+span
+{
+
+color: var(--primary);    
+
+}
+
+.restaurant {
+
+padding: 2em;
+text-align: left;
+
+}
+
+.logoXL {
+
+margin: 2em;
+
+}
+
+.logoXS {
+
+text-align: left;
+
+}
+
+.logoXL img {
+
+width: 232px;
+
+}
+    
+.cta
+{
+
+color: var(--text-light);
+background-color: var(--primary);
+background-size: 184px 375px;
+padding: 2em;
+margin-top: 2em;
+}
+
+.click
+{
+    display: inline-block;
+    padding: 10px;
+    width: 256px;
+    color: var(--text-light);    
+    background-color: var(--secondary);
+    font-family: var(--bebas-neue);
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+
+
+.savoirfaire > p
+{
+
+font-family: var(--montserrat);
+font-size: 20px;
+
+
+}
+
+#photos {
+
+margin: 4em;
+
+
+}
+
+#contactez {
+
+padding: 4em;
+font-size: 16px;
+
+}
+
+#menu {
+
+text-decoration: none;
+font-size: 20px;
+
+
+}
+
+#adresses {
+
+text-decoration: none;
+    
+}
+
+#adresses h2 {
+
+font-size: 20px;
+
+}
+
+#adresses p {
+
+    font-family: var(--montserrat);
+font-size: 16px;
+
+}
+
+
+
+footer
+{
+
+   
+background-color: var(--secondary);
+padding: 4em;
+
+
+}
+
+footer img {
+
+width: 36px;
+padding: 1.2em;
+
+}
+
+address a {
+
+font-style: normal;    
+color: var(--text);    
+text-decoration: none;
+font-weight: 600;    
+
+}
